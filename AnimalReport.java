@@ -1,11 +1,12 @@
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 
 public class AnimalReport {
-    public static void generateReport() {
+    public static void generateReport(ArrayList<Animal> hyenas, ArrayList<Animal> lions, ArrayList<Animal> bears, ArrayList<Animal> tigers) {
         HashMap<String, Integer> animalCounts = new HashMap<>();
         animalCounts.put("hyenaCount", Hyena.getNumOfHyenas());
         animalCounts.put("lionCount", Lion.getNumOfLions());
@@ -20,14 +21,12 @@ public class AnimalReport {
                     "Number of bears: " + animalCounts.get("bearCount") + "\n" +
                     "Number of tigers: " + animalCounts.get("tigerCount") + "\n" +
                     "\nTotal number of animals: " + Animal.getNumOfAnimals() + "\n\n\n"
-
             );
 
             writer.write("\nHyenas\n");
 
-            for (Animal hyena : AnimalObjectSorter.hyenas) {
+            for (Animal hyena : hyenas) {
                 writer.write("\nID: " + hyena.getId() + "; " +
-//                        " Species: " + hyena.getSpecies() + "; " +
                         " Name: " + hyena.getName() + "; " +
                         " Sex: " + hyena.getSex() + "; " +
                         " Age: " + hyena.getAge() + "; " +
@@ -41,9 +40,8 @@ public class AnimalReport {
 
             writer.write("\nLions\n");
 
-            for (Animal lion : AnimalObjectSorter.lions) {
+            for (Animal lion : lions) {
                 writer.write("\nID: " + lion.getId() + "; " +
-                        " Species: " + lion.getSpecies() + "; " +
                         " Name: " + lion.getName() + "; " +
                         " Sex: " + lion.getSex() + "; " +
                         " Age: " + lion.getAge() + "; " +
@@ -56,9 +54,8 @@ public class AnimalReport {
 
             writer.write("\nBears\n");
 
-            for (Animal bear : AnimalObjectSorter.bears) {
+            for (Animal bear : bears) {
                 writer.write("\nID: " + bear.getId() + "; " +
-                        " Species: " + bear.getSpecies() + "; " +
                         " Name: " + bear.getName() + "; " +
                         " Sex: " + bear.getSex() + "; " +
                         " Age: " + bear.getAge() + "; " +
@@ -71,9 +68,8 @@ public class AnimalReport {
 
             writer.write("\nTigers\n");
 
-            for (Animal tiger : AnimalObjectSorter.tigers) {
+            for (Animal tiger : tigers) {
                 writer.write("\nID: " + tiger.getId() + "; " +
-                        " Species: " + tiger.getSpecies() + "; " +
                         " Name: " + tiger.getName() + "; " +
                         " Sex: " + tiger.getSex() + "; " +
                         " Age: " + tiger.getAge() + "; " +
