@@ -9,40 +9,56 @@ Total number of animals: 16
 
 Hyenas
 
-ID: hy01;  Name: Shenzi;  Sex: female;  Age: 4;  Weight: 70 pounds;  Color: tan;  Born in: Spring;  From: Friguia Park, Tunisia;  Birthday: 2020-05-04;
+ID: hy01;  Name: Shenzi;  Sex: female;  Age: 4;  Weight: 70 pounds;  Color: tan;  Born in: Spring;  From: Friguia Park, Tunisia;  Birthday: 2020-05-25
+haha;
 
-ID: hy02;  Name:  Banzai;  Sex: male;  Age: 12;  Weight: 150 pounds;  Color: brown;  Born in: Fall;  From: Friguia Park, Tunisia;  Birthday: 2012-09-02;
+ID: hy02;  Name:  Banzai;  Sex: male;  Age: 12;  Weight: 150 pounds;  Color: brown;  Born in: Fall;  From: Friguia Park, Tunisia;  Birthday: 2012-11-14
+ hehe;
 
-ID: hy03;  Name:  Ed;  Sex: male;  Age: 4;  Weight: 120 pounds;  Color: black;  Born in: Spring;  From: Friguia Park, Tunisia;  Birthday: 2020-04-10;
+ID: hy03;  Name:  Ed;  Sex: male;  Age: 4;  Weight: 120 pounds;  Color: black;  Born in: Spring;  From: Friguia Park, Tunisia;  Birthday: 2020-05-23
+heheh;
 
-ID: hy04;  Name:  Zig;  Sex: female;  Age: 8;  Weight: 105 pounds;  Color: black and tan striped;  Born in: Unknown;  From: Friguia Park, Tunisia;  Birthday: null;
+ID: hy04;  Name:  Zig;  Sex: female;  Age: 8;  Weight: 105 pounds;  Color: black and tan striped;  Born in: Unknown;  From: Friguia Park, Tunisia;  Birthday: null
+hahhah;
 
 Lions
 
-ID: li01;  Name: Scar;  Sex: female;  Age: 6;  Weight: 300 pounds;  Color: tan;  Born in: Spring;  From: Zanzibar, Tanzania;  Birthday: 2018-04-22;
+ID: li01;  Name: Scar;  Sex: female;  Age: 6;  Weight: 300 pounds;  Color: tan;  Born in: Spring;  From: Zanzibar, Tanzania;  Birthday: 2018-04-10
+Roar;
 
-ID: li02;  Name:  Mufasa;  Sex: female;  Age: 12;  Weight: 375 pounds;  Color: dark tan;  Born in: Winter;  From: KopeLion, Tanzania;  Birthday: 2012-12-04;
+ID: li02;  Name:  Mufasa;  Sex: female;  Age: 12;  Weight: 375 pounds;  Color: dark tan;  Born in: Winter;  From: KopeLion, Tanzania;  Birthday: 2012-12-08
+Roar;
 
-ID: li03;  Name:  Simba;  Sex: male;  Age: 22;  Weight: 450 pounds;  Color: golden;  Born in: Fall;  From: Zanzibar, Tanzania;  Birthday: 2002-09-13;
+ID: li03;  Name:  Simba;  Sex: male;  Age: 22;  Weight: 450 pounds;  Color: golden;  Born in: Fall;  From: Zanzibar, Tanzania;  Birthday: 2002-10-20
+Roar;
 
-ID: li04;  Name:  Kiara;  Sex: female;  Age: 4;  Weight: 275 pounds;  Color: tan and brown;  Born in: Spring;  From: KopeLion, Tanzania;  Birthday: 2020-04-25;
+ID: li04;  Name:  Kiara;  Sex: female;  Age: 4;  Weight: 275 pounds;  Color: tan and brown;  Born in: Spring;  From: KopeLion, Tanzania;  Birthday: 2020-04-03
+Roar;
 
 Bears
 
-ID: be01;  Name: Yogi;  Sex: male;  Age: 7;  Weight: 320 pounds;  Color: brown;  Born in: Spring;  From: Alaska Zoo, Alaska;  Birthday: 2017-03-30;
+ID: be01;  Name: Yogi;  Sex: male;  Age: 7;  Weight: 320 pounds;  Color: brown;  Born in: Spring;  From: Alaska Zoo, Alaska;  Birthday: 2017-03-14
+Growl;
 
-ID: be02;  Name:  Smokey;  Sex: female;  Age: 25;  Weight: 425 pounds;  Color: black;  Born in: Spring;  From: Woodland park Zoo, Washington ;  Birthday: 1999-04-20;
+ID: be02;  Name:  Smokey;  Sex: female;  Age: 25;  Weight: 425 pounds;  Color: black;  Born in: Spring;  From: Woodland park Zoo, Washington ;  Birthday: 1999-03-29
+Growl;
 
-ID: be03;  Name:  Paddington;  Sex: female;  Age: 4;  Weight: 355 pounds;  Color: black;  Born in: Fall;  From: Woodland park Zoo, Washington ;  Birthday: 2020-11-08;
+ID: be03;  Name:  Paddington;  Sex: female;  Age: 4;  Weight: 355 pounds;  Color: black;  Born in: Fall;  From: Woodland park Zoo, Washington ;  Birthday: 2020-09-16
+Growl;
 
-ID: be04;  Name:  Lippy;  Sex: male;  Age: 4;  Weight: 405 pounds;  Color: brown;  Born in: Spring;  From: Alaska Zoo, Alaska;  Birthday: 2020-03-08;
+ID: be04;  Name:  Lippy;  Sex: male;  Age: 4;  Weight: 405 pounds;  Color: brown;  Born in: Spring;  From: Alaska Zoo, Alaska;  Birthday: 2020-04-01
+Growl;
 
 Tigers
 
-ID: ti01;  Name: Tony;  Sex: male;  Age: 2;  Weight: 270 pounds;  Color: gold and tan stripes;  Born in: Spring;  From: Dhaka, Bangladesh;  Birthday: 2022-03-17;
+ID: ti01;  Name: Tony;  Sex: male;  Age: 2;  Weight: 270 pounds;  Color: gold and tan stripes;  Born in: Spring;  From: Dhaka, Bangladesh;  Birthday: 2022-04-24
+Purr;
 
-ID: ti02;  Name:  Tigger;  Sex: female;  Age: 4;  Weight: 400 pounds;  Color: black stripes;  Born in: Spring;  From: Dhaka, Bangladesh;  Birthday: 2020-03-12;
+ID: ti02;  Name:  Tigger;  Sex: female;  Age: 4;  Weight: 400 pounds;  Color: black stripes;  Born in: Spring;  From: Dhaka, Bangladesh;  Birthday: 2020-05-31
+Purr;
 
-ID: ti03;  Name:  Amber;  Sex: male;  Age: 18;  Weight: 300 pounds;  Color: gold and tan;  Born in: Fall;  From: Bardia, Nepal;  Birthday: 2006-10-05;
+ID: ti03;  Name:  Amber;  Sex: male;  Age: 18;  Weight: 300 pounds;  Color: gold and tan;  Born in: Fall;  From: Bardia, Nepal;  Birthday: 2006-09-26
+Purr;
 
-ID: ti04;  Name:  Cosimia;  Sex: female;  Age: 3;  Weight: 285 pounds;  Color: black stripes;  Born in: Spring;  From: Bardia, Nepal;  Birthday: 2021-04-14;
+ID: ti04;  Name:  Cosimia;  Sex: female;  Age: 3;  Weight: 285 pounds;  Color: black stripes;  Born in: Spring;  From: Bardia, Nepal;  Birthday: 2021-03-08
+Purr;

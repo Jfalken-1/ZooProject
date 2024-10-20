@@ -8,6 +8,15 @@ public class Lion extends Animal {
         numOfLions++;
     }
 
+    // Sound index will increment once before being called so it will start at 0. It will increment each time it's called, working through the Array
+    static int soundIndex = -1;
+
+    public String makeSound() {
+        String[] lionSounds = new String[]{"Roar", "Grrr", "Raaaar", "Arrr"};
+        soundIndex++;
+        return lionSounds[soundIndex];
+    }
+
     public static int getNumOfLions() {
         return numOfLions;
     }

@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 public class AnimalReport {
     public static void generateReport(ArrayList<Animal> hyenas, ArrayList<Animal> lions, ArrayList<Animal> bears, ArrayList<Animal> tigers) {
+        // Hashmap is used to store the counts of all animals
         HashMap<String, Integer> animalCounts = new HashMap<>();
         animalCounts.put("hyenaCount", Hyena.getNumOfHyenas());
         animalCounts.put("lionCount", Lion.getNumOfLions());
@@ -23,8 +24,8 @@ public class AnimalReport {
                     "\nTotal number of animals: " + Animal.getNumOfAnimals() + "\n\n\n"
             );
 
+            // Prints animal information to txt file
             writer.write("\nHyenas\n");
-
             for (Animal hyena : hyenas) {
                 writer.write("\nID: " + hyena.getId() + "; " +
                         " Name: " + hyena.getName() + "; " +
@@ -34,7 +35,8 @@ public class AnimalReport {
                         " Color: " + hyena.getColor() + "; " +
                         " Born in: " + hyena.getSeasonBorn() + "; " +
                         " From: " + hyena.getOrigen() + "; " +
-                        " Birthday: " + hyena.getBirthDay() + ";\n");
+                        " Birthday: " + hyena.getBirthDay() + "\n" +
+                        hyena.makeSound() + ";\n");
 
             }
 
@@ -49,7 +51,8 @@ public class AnimalReport {
                         " Color: " + lion.getColor() + "; " +
                         " Born in: " + lion.getSeasonBorn() + "; " +
                         " From: " + lion.getOrigen() + "; " +
-                        " Birthday: " + lion.getBirthDay() + ";\n");
+                        " Birthday: " + lion.getBirthDay() + "\n" +
+                        lion.makeSound() + ";\n");
             }
 
             writer.write("\nBears\n");
@@ -63,7 +66,8 @@ public class AnimalReport {
                         " Color: " + bear.getColor() + "; " +
                         " Born in: " + bear.getSeasonBorn() + "; " +
                         " From: " + bear.getOrigen() + "; " +
-                        " Birthday: " + bear.getBirthDay() + ";\n");
+                        " Birthday: " + bear.getBirthDay() + "\n" +
+                        bear.makeSound() + ";\n");
             }
 
             writer.write("\nTigers\n");
@@ -77,7 +81,8 @@ public class AnimalReport {
                         " Color: " + tiger.getColor() + "; " +
                         " Born in: " + tiger.getSeasonBorn() + "; " +
                         " From: " + tiger.getOrigen() + "; " +
-                        " Birthday: " + tiger.getBirthDay() + ";\n");
+                        " Birthday: " + tiger.getBirthDay() + "\n" +
+                        tiger.makeSound() + ";\n");
             }
 
 

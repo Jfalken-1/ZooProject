@@ -7,11 +7,18 @@ public class Hyena extends Animal {
         super(age, sex, species, seasonBorn, color, weight, origen, name, id, birthDay);
         numOfHyenas++;
     }
+    // Sound index will increment once before being called so it will start at 0. It will increment each time it's called, working through the Array
+    static int soundIndex = -1;
+
+    public String makeSound() {
+        String[] hyenaSounds = new String[]{"haha", "hehe", "kekeke", "Gnah-gnah"};
+        soundIndex++;
+        return hyenaSounds[soundIndex];
+    }
 
     public static int getNumOfHyenas() {
         return numOfHyenas;
     }
-
 }
 
 

@@ -25,7 +25,6 @@ public class Animal {
         this.id = id;
         this.birthDay = birthDay;
         numOfAnimals++;
-//        printFields();
     }
 
     public int getAge() {
@@ -57,6 +56,10 @@ public class Animal {
     }
     public LocalDate getBirthDay() {
         return birthDay;
+    }
+
+    public String makeSound() {
+        return "";
     }
 
     public static int getNumOfAnimals() {
