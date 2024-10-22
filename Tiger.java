@@ -7,7 +7,7 @@ public class Tiger extends Animal{
         numOfTigers++;
     }
 
-    // Sound index will increment once before being called so it will start at 0. It will increment each time it's called, working through the Array
+    // soundIndex will increment once before method is called so it will start at 0. It will increment each time it's called, working through the Array
     static int soundIndex = -1;
 
     public String makeSound() {
