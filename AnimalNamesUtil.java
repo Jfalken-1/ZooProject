@@ -13,7 +13,10 @@ public class AnimalNamesUtil {
         bearNamesArray = nameSplitter(rawNames.get(10));
         tigerNamesArray = nameSplitter(rawNames.get(14));
     }
-    // When called in AnimalFactory, this will use getNumOfAnimal as an index to assign the next name in the correct array
+    /*
+    When called in AnimalFactory, this will use getNumOfAnimal as an index to assign the next name in the correct array. If number of animals exceeds
+    number of names, name will be set to N/A
+     */
     public static String nameAnimal (String species) {
         String name = "";
         switch (species) {
