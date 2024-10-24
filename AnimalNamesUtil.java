@@ -17,10 +17,26 @@ public class AnimalNamesUtil {
     public static String nameAnimal (String species) {
         String name = "";
         switch (species) {
-            case "hyena" -> name = hyenaNamesArray[Hyena.getNumOfHyenas()];
-            case "lion" -> name = lionNamesArray[Lion.getNumOfLions()];
-            case "bear" -> name = bearNamesArray[Bear.getNumOfBears()];
-            case "tiger" -> name = tigerNamesArray[Tiger.getNumOfTigers()];
+            case "hyena":
+                if (Hyena.getNumOfHyenas() <= hyenaNamesArray.length) {
+                    name = hyenaNamesArray[Hyena.getNumOfHyenas()];
+                } else {name = "N/A";}
+                break;
+            case "lion":
+                if (Lion.getNumOfLions() <= lionNamesArray.length) {
+                    name = lionNamesArray[Lion.getNumOfLions()];
+                } else {name = "N/A";}
+                break;
+            case "bear":
+                if (Bear.getNumOfBears() <= bearNamesArray.length) {
+                    name = bearNamesArray[Bear.getNumOfBears()];
+                } else {name = "N/A";}
+                break;
+            case "tiger":
+                if (Tiger.getNumOfTigers() <= tigerNamesArray.length) {
+                    name = tigerNamesArray[Tiger.getNumOfTigers()];
+                } else {name = "N/A";}
+                break;
         }
         return name;
     }
