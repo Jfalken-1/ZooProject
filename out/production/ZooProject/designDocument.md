@@ -10,4 +10,7 @@
 - A name is assigned with the nameAnimal method in AnimalNamesUtil.
 - ID is made with makeID method in AnimalFactory using species field and NumOfAnimal.
 - Birthday is made with generateBirthday method in AnimalFactory using age and seasonBorn.
-- When all fields are stored a switch and constructors
+- When all fields are stored a switch and constructors are used to make new Animal based off species field.
+- Animal is returned to App.
+- Animal is sorted into ArrayList list based off its species.
+- Animal report is generated.

@@ -9,11 +9,11 @@ public class Bear extends Animal {
 
     static int soundIndex = -1;
 
-    public String makeSound() {
-        String[] bearSounds = new String[]{"Grrf", "Rawrf", "Hrumph", "Gronk"};
-        soundIndex++;
-        return bearSounds[soundIndex];
-    }
+//    public String makeSound() {
+//        String[] bearSounds = new String[]{"Grrf", "Rawrf", "Hrumph", "Gronk"};
+//        soundIndex++;
+//        return bearSounds[soundIndex];
+//    }
 
     public static int getNumOfBears() {
         return numOfBears;

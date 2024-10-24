@@ -60,6 +60,5 @@ public class App {
         }
         // Sends arraylist to AnimalReport to generate the animalReport text file
         AnimalReport.generateReport(hyenas, lions, bears, tigers);
-
     }
 }

@@ -112,7 +112,7 @@ public class AnimalFactory {
                     birthMonth = Month.FEBRUARY.getValue();
                 }
                 break;
-                // May require two hours to remember that one of the seasons in the file is unknown and that's why it threw errors no matter what you do.
+            // May require two hours to remember that one of the seasons in the file is unknown and that's why it threw errors no matter what you do.
             case "unknown":
                 return null;
         }
@@ -127,4 +127,3 @@ public class AnimalFactory {
         return LocalDate.of(birthYear, birthMonth, dayOfBirth);
     }
 }
-

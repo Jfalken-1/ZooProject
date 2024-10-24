@@ -18,22 +18,22 @@ public class AnimalNamesUtil {
         String name = "";
         switch (species) {
             case "hyena":
-                if (Hyena.getNumOfHyenas() <= hyenaNamesArray.length) {
+                if (Hyena.getNumOfHyenas() <= hyenaNamesArray.length - 1) {
                     name = hyenaNamesArray[Hyena.getNumOfHyenas()];
                 } else {name = "N/A";}
                 break;
             case "lion":
-                if (Lion.getNumOfLions() <= lionNamesArray.length) {
+                if (Lion.getNumOfLions() <= lionNamesArray.length - 1) {
                     name = lionNamesArray[Lion.getNumOfLions()];
                 } else {name = "N/A";}
                 break;
             case "bear":
-                if (Bear.getNumOfBears() <= bearNamesArray.length) {
+                if (Bear.getNumOfBears() <= bearNamesArray.length - 1) {
                     name = bearNamesArray[Bear.getNumOfBears()];
                 } else {name = "N/A";}
                 break;
             case "tiger":
-                if (Tiger.getNumOfTigers() <= tigerNamesArray.length) {
+                if (Tiger.getNumOfTigers() <= tigerNamesArray.length - 1) {
                     name = tigerNamesArray[Tiger.getNumOfTigers()];
                 } else {name = "N/A";}
                 break;
